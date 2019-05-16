@@ -1,0 +1,120 @@
+/* Estilos CSS
+| Colores |
+Blanco: #F5F5F5
+Azul: #0091EA
+Plomo 1: #9E9E9E
+Plomo 2: #BDBDBD
+Negro: #212121
+*/
+
+/* General */
+.espacioDiv {
+	height: 15vh;
+}
+
+hr {
+	border-color: #212121;
+}
+
+/* Scrollspy */
+body {
+	position: relative;
+	background-color: #F5F5F5;
+}
+
+/* NavBar */
+#navbarBarraScroll div > a.active {
+	background-color: #F5F5F5;
+	color: #0091EA;
+	border-radius: 7px;
+}
+
+nav > a,
+nav div > div:first-child a {
+	color: #F5F5F5;
+}
+
+nav > a:hover {
+	color: #F5F5F5;
+}
+
+nav div > div:first-child a:hover {
+	color: #BDBDBD;
+}
+
+.sizeLogoRestaurant {
+	width: 70px;
+	height: 36px;
+	object-fit: cover;
+	margin-bottom: 3px;
+}
+
+.botonRedSocial {
+	border: none;
+}
+
+/* Slider */
+.contenedorParrafoSlider {
+	background-color:rgba(0,145,234,0.6);
+	border-radius: 14px;
+}
+
+/* Nosotros */
+.animarImagen {
+	cursor: pointer;
+}
+
+/* La Carta */
+.barLaCarta {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.formaBoton {
+	width: 70px;
+	height: 30px;
+	margin: 3px; 
+}
+
+.tituloContenedor {
+	border-bottom: 2px solid #0091EA;
+	background-color: #F5F5F5;
+}
+
+.contenedorPrincipal {
+	cursor: pointer;
+}
+
+.contenedorSecundario {
+	/* background-image por jQuery */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.imagenPlato {
+	visibility: hidden;
+	border: 2px dotted red;
+}
+
+/* Estilos para Parrafo Hidden */
+.parrafoContenedor {
+	display: table;
+	z-index: 100;
+}
+
+.parrafoContenedor p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.colorParrafoCarta {
+    background-color:rgba(0,145,234,0.6);
+    color: #F5F5F5;
+}
+
+/* Eventos */
+.colorParrafoEventos {
+    background-color:rgba(158,158,158,0.8);
+    color: #F5F5F5;
+}
