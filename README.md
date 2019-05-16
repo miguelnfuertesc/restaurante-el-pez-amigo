@@ -1,5 +1,5 @@
 # Restaurante El Pez Amigo
-![preview-restaurante-el-pez-amigo](https://i.imgur.com/owv51ls.gif)
+![preview-restaurante-el-pez-amigo](https://i.imgur.com/owv51ls.gifv)
 
 ## Uso
 Abrir index.html
